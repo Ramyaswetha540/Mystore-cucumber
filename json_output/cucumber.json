@@ -1,0 +1,128 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Create new account",
+        "description": "",
+        "id": "mystore-signin-test;create-new-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10638484400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user opens browser and user is on homepage",
+            "match": {
+              "location": "Signinstepdefination.user_opens_browser_and_user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 789620600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user clicks on siginlink",
+            "match": {
+              "location": "Signinstepdefination.user_clicks_on_siginlink()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 375595400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter emailaddress in create new account",
+            "match": {
+              "location": "Signinstepdefination.user_enter_emailaddress_in_create_new_account()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 40139400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on create an account",
+            "match": {
+              "location": "Signinstepdefination.user_clicks_on_create_an_account()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3326659000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter following details",
+            "match": {
+              "location": "Signinstepdefination.user_enter_following_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Firstname",
+                  "Lastname",
+                  "Email",
+                  "Password",
+                  "firstname",
+                  "lastname",
+                  "Address",
+                  "City",
+                  "Zip",
+                  "Mobilenum",
+                  "Alias"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "micky",
+                  "mouse",
+                  "bluesky@gmail.com",
+                  "micky",
+                  "minne",
+                  "mouse",
+                  "1850",
+                  "Edison",
+                  "08803",
+                  "7345567892",
+                  "Newyork"
+                ],
+                "line": 10
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1633101500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks on registration button",
+            "match": {
+              "location": "Signinstepdefination.user_clicks_on_registration_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Mystore Signin Test",
+    "description": "",
+    "id": "mystore-signin-test",
+    "keyword": "Feature",
+    "uri": "C:/Users/14388/eclipse-workspace/Mystore_Cucumber/src/main/java/com/features/signin.feature"
+  }
+]
